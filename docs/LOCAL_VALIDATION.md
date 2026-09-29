@@ -25,3 +25,18 @@ has not run on a remote service; Windows process supervision is unqualified.
 
 Historical document links were made relative and their document checksums
 updated; archived engine bytes and rule behavior were preserved.
+
+## Fresh installation check — 29 September 2026
+
+The repository was cloned into a new temporary directory, without source-tree
+assets or prepared models. All generated artifacts remained in the private test
+copy. No website, original campaign, frozen model or remote repository changed.
+
+All 157 Node tests and all five independent-supervisor tests passed from the
+fresh clone. The latter include real paired games, pause/resume, both budget
+lanes, preserved game bytes and refusal of an expired deadline. G1/G2/G3 each
+produced a legal MCTS-32 choice; a G3/G2 MCTS-8 sample reached a legal terminal
+outcome. The English controller returned HTML/API 200 and started no job on open.
+No additional weight archive was needed. These checks do not measure new strength.
+
+See [machine-readable results](onboarding-results.json).
