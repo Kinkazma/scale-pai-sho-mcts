@@ -92,4 +92,5 @@ Original code and weights are [MIT licensed](LICENSE). Historical rule documents
 may retain their original language to preserve archived checksum tests. Current
 entry points, documentation and management interface are English.
 
-See [local validation and remaining work](docs/LOCAL_VALIDATION.md).
+See [installation and continuation](docs/INSTALL.md), [completeness](docs/COMPLETENESS.md),
+and [local validation and remaining work](docs/LOCAL_VALIDATION.md).
