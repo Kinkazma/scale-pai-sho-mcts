@@ -1,12 +1,12 @@
 {
   "description": "SHA-256 of tracked public files; large data uses data/manifests separately.",
   "files": {
-    ".github/workflows/test.yml": "5fdfcc98ded3116efa5ab4b62037ffe7e77bf1eaa19c29fcd5016fefa3d65d3f",
+    ".github/workflows/test.yml": "1dd71eaace2221ec1808d19cc39ef5789ccebacd62d0e5b11213b0ad82cf2ef9",
     ".gitignore": "9fa1deaca02765b18c56ad92c7833a86763a16e3dc02b1e757eb1154d8c8ab60",
     "AGENTS.md": "09299df0c1b58aec20bb6950937400d6c845e8a64cf57d86f9ab15f696cd83fc",
     "CONTRIBUTING.md": "e32fdab695a9dc213d69ab262ad4a43717233fa0cf8057830e1b466270d421ce",
     "LICENSE": "20f5475892f79674931a79eaeeb23a032bc971e07c09d63e7c67a3a8a27bb09f",
-    "README.md": "9ac7909522ae7433da9dcd3ca82d8b8e35b46db8736f32f1a768efd2c783578e",
+    "README.md": "fd8ff69bac4f9a56ab6c70b8af3faabd61a39a99242bcd4de76ff494a26baa59",
     "cli.mjs": "5a2793e12b3524361f9e6dc2d215cb93d0d136a4ea319b24d1ec786a06dfe4cd",
     "data/final-g3-confirmation/README.md": "f22a2a8c2337e84cf36b17bcc0be27e11cfaec5f085c4cad7f39680f07d3579f",
     "data/final-g3-confirmation/confirmation-jobs.json": "bef53156814012053fa3aeb4d3be21d800b8fe5a83ce3ae7e6ffbdf139e0aca2",
@@ -1808,6 +1808,8 @@
     "data/final-g3-confirmation/selection-jobs.json": "db4906962f55709df5c2fd92c28c32b1747a61b4388facd7049a45493cc46805",
     "data/final-g3-confirmation/selection-ranking.json": "652168f7b2b99d6c023cd5525a6c54ef5aa9fc9550caaaa4bde36ba2e47cac82",
     "data/final-g3-confirmation/selection-results.json": "aea631ea48131c65360b07151410ed81b3e445ec4af38d1c218ede9164588c05",
+    "docs/COMPLETENESS.md": "1d9ee47bd2f9ec91cad288e4611aa5ee03d0e3e716c0eb3518440fc4ab580452",
+    "docs/INSTALL.md": "25dea730fc78bb5887d902ab044d03ed68c2b2ddf094800aabfe9d74d901bb53",
     "docs/LOCAL_VALIDATION.md": "225f1a015d524d9952b776b53215444317f53789d3cf1435fd37a646a7a1460e",
     "docs/VALIDATION.md": "dd5745478dd2e429ffac24b30618574277a2dfe635f1b3caf6a5d952e8b83733",
     "fixtures/baseline-v12/src/engine.mjs": "7660635f488e30dd4ce157dc54a964d6971fd00727672600d85fc356a2291d09",
