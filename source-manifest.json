@@ -1870,7 +1870,7 @@
     "profiles/gen1.json": "758ecb33a639e70d6aec2ac5ff35d6bc46b29aecc82adfcec45cc365b99ed862",
     "profiles/gen2.json": "53bed45ad71f168cd34d91c62cd767a044eaaba18acca336bb20df3e6d876130",
     "profiles/gen3.json": "1ed6f9f60ba9eb687d4df8b064e2f92f7090447ad5ce91a3b2927ecec265ed94",
-    "release.json": "e6206b0a7b03daddb577ff7995f1a3edf3cffa09c820895c40b29fade970b90c",
+    "release.json": "897124ebfc267d0a0f4ba2ce1cb7879a604637def618b1be2d9dbdc96807a8e7",
     "rules/RULES.md": "054199e551fc6611cb27cb0e442c4990b67a31d09df4ec7f9fc7c5cbf1806ddf",
     "scripts/allocate-sequential-risk.py": "89cf148ef381eaa2759910b94caad2d4736e5ba9d616ad8434535684ac610acb",
     "scripts/calibrate.mjs": "8753edb552a00775f3134a953378e23c8d28e0eb392b931c504537efa8fcf6a1",
