@@ -1,3 +1,5 @@
+> This release branch defaults to **Generation 2**. Explicit generation arguments in the shared examples override that default. See `release.json`.
+
 # Scale Pai Sho MCTS
 
 Frozen **G1, G2 and G3** opponents and the evolutionary training system for
