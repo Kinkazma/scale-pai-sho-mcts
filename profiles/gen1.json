@@ -1,0 +1,24 @@
+{
+  "generation": 1,
+  "profiles": {
+    "8": {
+      "id": "guided8-static-v10",
+      "candidates": 8,
+      "rolloutDepth": 0
+    },
+    "16": {
+      "id": "guided8-static-v10",
+      "candidates": 8,
+      "rolloutDepth": 0
+    },
+    "32": {
+      "id": "guided8-v1",
+      "candidates": 8
+    },
+    "64": {
+      "id": "guided8-static-v10",
+      "candidates": 8,
+      "rolloutDepth": 0
+    }
+  }
+}

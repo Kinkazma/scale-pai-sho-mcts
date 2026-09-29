@@ -1,0 +1,54 @@
+{
+  "rankings": {
+    "8": [
+      {
+        "name": "D22",
+        "points": 132,
+        "games": 256,
+        "scoreRate": 0.515625,
+        "seconds": 1288.5950281480077
+      },
+      {
+        "name": "G3",
+        "points": 129,
+        "games": 256,
+        "scoreRate": 0.50390625,
+        "seconds": 1283.870389786036
+      },
+      {
+        "name": "D23",
+        "points": 123,
+        "games": 256,
+        "scoreRate": 0.48046875,
+        "seconds": 1251.521790725005
+      }
+    ],
+    "32": [
+      {
+        "name": "D12",
+        "points": 142,
+        "games": 256,
+        "scoreRate": 0.5546875,
+        "seconds": 2431.1918909739948
+      },
+      {
+        "name": "D13",
+        "points": 126,
+        "games": 256,
+        "scoreRate": 0.4921875,
+        "seconds": 3097.150685336017
+      },
+      {
+        "name": "G3",
+        "points": 116,
+        "games": 256,
+        "scoreRate": 0.453125,
+        "seconds": 2964.413525788006
+      }
+    ]
+  },
+  "selected": {
+    "8": "D22",
+    "32": "D12"
+  }
+}

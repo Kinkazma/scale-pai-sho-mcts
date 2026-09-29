@@ -1,0 +1,252 @@
+{
+  "defaultGeneration": 3,
+  "defaultBudget": 32,
+  "generations": [
+    {
+      "id": 1,
+      "label": "Generation 1",
+      "profiles": {
+        "8": {
+          "id": "guided8-static-v10",
+          "candidates": 8,
+          "rolloutDepth": 0
+        },
+        "16": {
+          "id": "guided8-static-v10",
+          "candidates": 8,
+          "rolloutDepth": 0
+        },
+        "32": {
+          "id": "guided8-v1",
+          "candidates": 8
+        },
+        "64": {
+          "id": "guided8-static-v10",
+          "candidates": 8,
+          "rolloutDepth": 0
+        },
+        "128": {
+          "id": "guided8-v1",
+          "candidates": 8
+        },
+        "256": {
+          "id": "guided8-static-v10",
+          "candidates": 8,
+          "rolloutDepth": 0
+        },
+        "512": {
+          "id": "guided8-v1",
+          "candidates": 8
+        },
+        "1024": {
+          "id": "guided8-v1",
+          "candidates": 8
+        },
+        "2048": {
+          "id": "guided8-v1",
+          "candidates": 8
+        },
+        "4096": {
+          "id": "guided8-v1",
+          "candidates": 8
+        },
+        "8192": {
+          "id": "guided8-v1",
+          "candidates": 8
+        }
+      }
+    },
+    {
+      "id": 2,
+      "label": "Generation 2",
+      "profiles": {
+        "8": {
+          "candidates": 8,
+          "widening": 2,
+          "rolloutDepth": 0,
+          "exploration": 1,
+          "horizonWeight": 1,
+          "scoreScale": 24,
+          "reuseTree": true,
+          "solver": true,
+          "cacheCandidates": true,
+          "maxNodes": 50000,
+          "id": "g2-b8-c6",
+          "searchVersion": "relational-solver-v2",
+          "tacticalDepth": 2,
+          "tacticalNodes": 8,
+          "tacticalWidth": 4,
+          "tacticalOrdering": true,
+          "repetitionPolicy": "avoid-stagnation-v1",
+          "weights": {
+            "pairPotential": 0.5,
+            "reconfiguration": 0.25,
+            "availableRegions": 0.5,
+            "activeRegions": 0.25,
+            "latentPressure": 0.05,
+            "reachablePressure": 0.25,
+            "mobility": 0.25,
+            "stableInfluence": 0.2,
+            "reserveFlexibility": -0.5
+          }
+        },
+        "16": {
+          "candidates": 8,
+          "widening": 2,
+          "rolloutDepth": 0,
+          "exploration": 1,
+          "horizonWeight": 1,
+          "scoreScale": 24,
+          "reuseTree": true,
+          "solver": true,
+          "cacheCandidates": true,
+          "maxNodes": 50000,
+          "id": "migrated-relational-b16-guard",
+          "searchVersion": "relational-solver-v2",
+          "weights": {
+            "pairPotential": 0.15,
+            "reconfiguration": 0.25,
+            "availableRegions": 0.5,
+            "activeRegions": 0.25,
+            "latentPressure": 0.05,
+            "reachablePressure": 0.25,
+            "mobility": 0.15,
+            "stableInfluence": 0.2,
+            "reserveFlexibility": 0.15
+          },
+          "tacticalDepth": 2,
+          "tacticalNodes": 8,
+          "tacticalWidth": 2,
+          "tacticalOrdering": true,
+          "repetitionPolicy": "avoid-stagnation-v1"
+        },
+        "32": {
+          "candidates": 8,
+          "widening": 2,
+          "rolloutDepth": 0,
+          "exploration": 1,
+          "horizonWeight": 1,
+          "scoreScale": 24,
+          "reuseTree": true,
+          "solver": true,
+          "cacheCandidates": true,
+          "maxNodes": 50000,
+          "id": "migrated-relational-b32-guard",
+          "searchVersion": "relational-solver-v2",
+          "weights": {
+            "pairPotential": 0.15,
+            "reconfiguration": 0.25,
+            "availableRegions": 0.5,
+            "activeRegions": 0.25,
+            "latentPressure": 0.05,
+            "reachablePressure": 0.25,
+            "mobility": 0.15,
+            "stableInfluence": 0.2,
+            "reserveFlexibility": 0.15
+          },
+          "tacticalDepth": 2,
+          "tacticalNodes": 8,
+          "tacticalWidth": 2,
+          "tacticalOrdering": true,
+          "repetitionPolicy": "avoid-stagnation-v1"
+        },
+        "64": {
+          "candidates": 8,
+          "widening": 3,
+          "rolloutDepth": 0,
+          "exploration": 1,
+          "horizonWeight": 1,
+          "scoreScale": 24,
+          "reuseTree": true,
+          "solver": true,
+          "cacheCandidates": true,
+          "maxNodes": 50000,
+          "id": "g2-b64-c5",
+          "searchVersion": "relational-solver-v2",
+          "tacticalDepth": 2,
+          "tacticalNodes": 8,
+          "tacticalWidth": 2,
+          "tacticalOrdering": true,
+          "repetitionPolicy": "avoid-stagnation-v1",
+          "weights": {
+            "pairPotential": 0.15,
+            "reconfiguration": 0.25,
+            "availableRegions": 0.5,
+            "activeRegions": 0.25,
+            "latentPressure": 0.05,
+            "reachablePressure": 0.25,
+            "mobility": 0.15,
+            "stableInfluence": 0.2,
+            "reserveFlexibility": -0.5
+          }
+        }
+      }
+    },
+    {
+      "id": 3,
+      "label": "Generation 3",
+      "profiles": {
+        "8": {
+          "candidates": 4,
+          "widening": 3,
+          "rolloutDepth": 0,
+          "exploration": 3,
+          "horizonWeight": 2,
+          "scoreScale": 24,
+          "reuseTree": true,
+          "solver": true,
+          "cacheCandidates": true,
+          "maxNodes": 50000,
+          "id": "g1-b8-c2",
+          "searchVersion": "relational-solver-v2",
+          "tacticalDepth": 2,
+          "tacticalNodes": 32,
+          "tacticalWidth": 2,
+          "tacticalOrdering": true,
+          "repetitionPolicy": "avoid-stagnation-v1",
+          "weights": {
+            "pairPotential": 0.05,
+            "reconfiguration": 0.05,
+            "availableRegions": 2,
+            "activeRegions": -1,
+            "latentPressure": -0.5,
+            "reachablePressure": 1,
+            "mobility": 0.15,
+            "stableInfluence": 0.05,
+            "reserveFlexibility": -0.5
+          }
+        },
+        "32": {
+          "candidates": 4,
+          "widening": 0.75,
+          "rolloutDepth": 0,
+          "exploration": 0.5,
+          "horizonWeight": 2,
+          "scoreScale": 24,
+          "reuseTree": true,
+          "solver": true,
+          "cacheCandidates": true,
+          "maxNodes": 50000,
+          "id": "g1-b32-c8",
+          "searchVersion": "relational-solver-v2",
+          "tacticalDepth": 8,
+          "tacticalNodes": 16,
+          "tacticalWidth": 4,
+          "tacticalOrdering": true,
+          "repetitionPolicy": "avoid-stagnation-v1",
+          "weights": {
+            "pairPotential": -0.5,
+            "reconfiguration": 0.25,
+            "availableRegions": 2,
+            "activeRegions": 0.25,
+            "latentPressure": 0,
+            "reachablePressure": 0.5,
+            "mobility": -1,
+            "stableInfluence": -1,
+            "reserveFlexibility": 1
+          }
+        }
+      }
+    }
+  ]
+}

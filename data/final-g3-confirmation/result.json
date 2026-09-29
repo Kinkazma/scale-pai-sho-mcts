@@ -1,0 +1,235 @@
+{
+  "profiles": {
+    "8": {
+      "candidates": 4,
+      "widening": 3,
+      "rolloutDepth": 0,
+      "exploration": 3,
+      "horizonWeight": 2,
+      "scoreScale": 24,
+      "reuseTree": true,
+      "solver": true,
+      "cacheCandidates": true,
+      "maxNodes": 50000,
+      "id": "g1-b8-c2",
+      "searchVersion": "relational-solver-v2",
+      "tacticalDepth": 2,
+      "tacticalNodes": 32,
+      "tacticalWidth": 2,
+      "tacticalOrdering": true,
+      "repetitionPolicy": "avoid-stagnation-v1",
+      "weights": {
+        "pairPotential": 0.05,
+        "reconfiguration": 0.05,
+        "availableRegions": 2,
+        "activeRegions": -1,
+        "latentPressure": -0.5,
+        "reachablePressure": 1,
+        "mobility": 0.15,
+        "stableInfluence": 0.05,
+        "reserveFlexibility": -0.5
+      }
+    },
+    "32": {
+      "candidates": 4,
+      "widening": 0.75,
+      "rolloutDepth": 0,
+      "exploration": 0.5,
+      "horizonWeight": 2,
+      "scoreScale": 24,
+      "reuseTree": true,
+      "solver": true,
+      "cacheCandidates": true,
+      "maxNodes": 50000,
+      "id": "g1-b32-c8",
+      "searchVersion": "relational-solver-v2",
+      "tacticalDepth": 8,
+      "tacticalNodes": 16,
+      "tacticalWidth": 4,
+      "tacticalOrdering": true,
+      "repetitionPolicy": "avoid-stagnation-v1",
+      "weights": {
+        "pairPotential": -0.5,
+        "reconfiguration": 0.25,
+        "availableRegions": 2,
+        "activeRegions": 0.25,
+        "latentPressure": 0,
+        "reachablePressure": 0.5,
+        "mobility": -1,
+        "stableInfluence": -1,
+        "reserveFlexibility": 1
+      }
+    }
+  },
+  "assessment": {
+    "8": {
+      "selected": "D22",
+      "pairs": 256,
+      "games": 512,
+      "wins": 248,
+      "draws": 0,
+      "losses": 264,
+      "scoreRate": 0.484375,
+      "candidateSeconds": 2255.0984266799906,
+      "opponentSeconds": 2277.4848199730404,
+      "costRatio": 0.9901705631156238,
+      "evidence": {
+        "pairs": 256,
+        "scoreRate": 0.484375,
+        "logE": -2.5845839424407395,
+        "logThreshold": 3.6888794541139363,
+        "passed": false
+      },
+      "accepted": false,
+      "retained": "G3"
+    },
+    "32": {
+      "selected": "D12",
+      "pairs": 256,
+      "games": 512,
+      "wins": 314,
+      "draws": 2,
+      "losses": 196,
+      "scoreRate": 0.615234375,
+      "candidateSeconds": 4153.634637112977,
+      "opponentSeconds": 5134.589132965992,
+      "costRatio": 0.8089517056866501,
+      "evidence": {
+        "pairs": 256,
+        "scoreRate": 0.615234375,
+        "logE": 11.512038541726925,
+        "logThreshold": 3.6888794541139363,
+        "passed": true
+      },
+      "accepted": true,
+      "retained": "D12"
+    }
+  },
+  "selectionDuels": {
+    "8": [
+      {
+        "a": "G3",
+        "b": "D23",
+        "pairs": 64,
+        "games": 128,
+        "wins": 61,
+        "draws": 0,
+        "losses": 67,
+        "scoreRate": 0.4765625,
+        "candidateSeconds": 628.7158432060136,
+        "opponentSeconds": 626.2412403360047,
+        "costRatio": 1.0039515169404702,
+        "evidence": {
+          "pairs": 64,
+          "scoreRate": 0.4765625,
+          "logE": -1.6422172580370074,
+          "logThreshold": 3.6888794541139363,
+          "passed": false
+        }
+      },
+      {
+        "a": "G3",
+        "b": "D22",
+        "pairs": 64,
+        "games": 128,
+        "wins": 68,
+        "draws": 0,
+        "losses": 60,
+        "scoreRate": 0.53125,
+        "candidateSeconds": 655.154546580022,
+        "opponentSeconds": 649.5235444840081,
+        "costRatio": 1.008669434917078,
+        "evidence": {
+          "pairs": 64,
+          "scoreRate": 0.53125,
+          "logE": -0.3992688098634879,
+          "logThreshold": 3.6888794541139363,
+          "passed": false
+        }
+      },
+      {
+        "a": "D23",
+        "b": "D22",
+        "pairs": 64,
+        "games": 128,
+        "wins": 56,
+        "draws": 0,
+        "losses": 72,
+        "scoreRate": 0.4375,
+        "candidateSeconds": 625.2805503890005,
+        "opponentSeconds": 639.0714836639997,
+        "costRatio": 0.9784203588682576,
+        "evidence": {
+          "pairs": 64,
+          "scoreRate": 0.4375,
+          "logE": -2.145022765416803,
+          "logThreshold": 3.6888794541139363,
+          "passed": false
+        }
+      }
+    ],
+    "32": [
+      {
+        "a": "G3",
+        "b": "D12",
+        "pairs": 64,
+        "games": 128,
+        "wins": 60,
+        "draws": 0,
+        "losses": 68,
+        "scoreRate": 0.46875,
+        "candidateSeconds": 1494.8410080260037,
+        "opponentSeconds": 1216.160868926001,
+        "costRatio": 1.2291474312490474,
+        "evidence": {
+          "pairs": 64,
+          "scoreRate": 0.46875,
+          "logE": -1.7636521727308503,
+          "logThreshold": 3.6888794541139363,
+          "passed": false
+        }
+      },
+      {
+        "a": "G3",
+        "b": "D13",
+        "pairs": 64,
+        "games": 128,
+        "wins": 56,
+        "draws": 0,
+        "losses": 72,
+        "scoreRate": 0.4375,
+        "candidateSeconds": 1469.5725177620043,
+        "opponentSeconds": 1553.3906731889945,
+        "costRatio": 0.9460418059193585,
+        "evidence": {
+          "pairs": 64,
+          "scoreRate": 0.4375,
+          "logE": -2.145022765416803,
+          "logThreshold": 3.6888794541139363,
+          "passed": false
+        }
+      },
+      {
+        "a": "D12",
+        "b": "D13",
+        "pairs": 64,
+        "games": 128,
+        "wins": 74,
+        "draws": 0,
+        "losses": 54,
+        "scoreRate": 0.578125,
+        "candidateSeconds": 1215.0310220479932,
+        "opponentSeconds": 1543.7600121470234,
+        "costRatio": 0.7870595251124286,
+        "evidence": {
+          "pairs": 64,
+          "scoreRate": 0.578125,
+          "logE": 0.33341189343783983,
+          "logThreshold": 3.6888794541139363,
+          "passed": false
+        }
+      }
+    ]
+  },
+  "completedAt": "2026-09-29T09:27:10.343Z"
+}

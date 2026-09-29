@@ -1,0 +1,44 @@
+{
+  "rules": "paisho-regions-v10-audited-rules",
+  "status": "selection-complete",
+  "profiles": {
+    "8": {
+      "id": "guided8-static-v10",
+      "candidates": 8,
+      "rolloutDepth": 0
+    },
+    "16": {
+      "id": "guided8-static-v10",
+      "candidates": 8,
+      "rolloutDepth": 0
+    },
+    "32": {
+      "id": "guided8-v1",
+      "candidates": 8
+    },
+    "64": {
+      "id": "guided8-static-v10",
+      "candidates": 8,
+      "rolloutDepth": 0
+    },
+    "128": {
+      "id": "guided8-v1",
+      "candidates": 8
+    },
+    "256": {
+      "id": "guided8-static-v10",
+      "candidates": 8,
+      "rolloutDepth": 0
+    },
+    "512": {
+      "id": "guided8-v1",
+      "candidates": 8
+    },
+    "1024": {
+      "id": "guided8-v1",
+      "candidates": 8
+    }
+  },
+  "ratings": [],
+  "selectionEvidence": "v10-fixed-verification-20260907"
+}

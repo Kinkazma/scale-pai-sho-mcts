@@ -1,0 +1,10 @@
+node_modules/
+runs/
+reports/
+__pycache__/
+*.pyc
+.DS_Store
+
+.build/
+.venv/
+packs/

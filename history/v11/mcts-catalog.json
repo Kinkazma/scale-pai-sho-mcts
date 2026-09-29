@@ -1,0 +1,44 @@
+{
+  "rules": "paisho-regions-v11-cumulative-margin",
+  "status": "inherited-unrated",
+  "profiles": {
+    "8": {
+      "id": "guided8-static-v10",
+      "candidates": 8,
+      "rolloutDepth": 0
+    },
+    "16": {
+      "id": "guided8-static-v10",
+      "candidates": 8,
+      "rolloutDepth": 0
+    },
+    "32": {
+      "id": "guided8-v1",
+      "candidates": 8
+    },
+    "64": {
+      "id": "guided8-static-v10",
+      "candidates": 8,
+      "rolloutDepth": 0
+    },
+    "128": {
+      "id": "guided8-v1",
+      "candidates": 8
+    },
+    "256": {
+      "id": "guided8-static-v10",
+      "candidates": 8,
+      "rolloutDepth": 0
+    },
+    "512": {
+      "id": "guided8-v1",
+      "candidates": 8
+    },
+    "1024": {
+      "id": "guided8-v1",
+      "candidates": 8
+    }
+  },
+  "ratings": [],
+  "profileOrigin": "Inherited V10 profiles; not calibrated for cumulative V11 scoring."
+}

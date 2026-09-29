@@ -1,0 +1,9 @@
+{
+  "engine.mjs": "1d23189b4a78a338815a08dfe3d2758e9f1ba6dd6f5577d5916e973a88a57100",
+  "region-resolution.mjs": "85b47bda78c6fac2ec9529ec8419c43c8b7c7322e0bb4b7177c226cac4f90a00",
+  "search.mjs": "b76863eb9e0944b584d6971d281a32e01035b4c7705285a1625fe06cdc147ea1",
+  "search-profile.json": "550f6da33920805e337cfa7bc1d28eedb2251e66af50db1f12ad803d71a5ca3b",
+  "mcts-catalog.json": "c17e827b05d84665990c70bbe2a442cb67aa2e4f511694a2b1858b9d2c2a65f2",
+  "RULES.md": "00ecef8f65e9bb254e7dbc6da460403c99996c547758bcb828d08498a0b984e8",
+  "RULES_SHORT.md": "3f3c3c95aef610e6bf314498a84aedbfedb8a5293e8d1d23015ecc3442e8de0b"
+}

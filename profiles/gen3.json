@@ -1,0 +1,65 @@
+{
+  "generation": 3,
+  "profiles": {
+    "8": {
+      "candidates": 4,
+      "widening": 3,
+      "rolloutDepth": 0,
+      "exploration": 3,
+      "horizonWeight": 2,
+      "scoreScale": 24,
+      "reuseTree": true,
+      "solver": true,
+      "cacheCandidates": true,
+      "maxNodes": 50000,
+      "id": "g1-b8-c2",
+      "searchVersion": "relational-solver-v2",
+      "tacticalDepth": 2,
+      "tacticalNodes": 32,
+      "tacticalWidth": 2,
+      "tacticalOrdering": true,
+      "repetitionPolicy": "avoid-stagnation-v1",
+      "weights": {
+        "pairPotential": 0.05,
+        "reconfiguration": 0.05,
+        "availableRegions": 2,
+        "activeRegions": -1,
+        "latentPressure": -0.5,
+        "reachablePressure": 1,
+        "mobility": 0.15,
+        "stableInfluence": 0.05,
+        "reserveFlexibility": -0.5
+      }
+    },
+    "32": {
+      "candidates": 4,
+      "widening": 0.75,
+      "rolloutDepth": 0,
+      "exploration": 0.5,
+      "horizonWeight": 2,
+      "scoreScale": 24,
+      "reuseTree": true,
+      "solver": true,
+      "cacheCandidates": true,
+      "maxNodes": 50000,
+      "id": "g1-b32-c8",
+      "searchVersion": "relational-solver-v2",
+      "tacticalDepth": 8,
+      "tacticalNodes": 16,
+      "tacticalWidth": 4,
+      "tacticalOrdering": true,
+      "repetitionPolicy": "avoid-stagnation-v1",
+      "weights": {
+        "pairPotential": -0.5,
+        "reconfiguration": 0.25,
+        "availableRegions": 2,
+        "activeRegions": 0.25,
+        "latentPressure": 0,
+        "reachablePressure": 0.5,
+        "mobility": -1,
+        "stableInfluence": -1,
+        "reserveFlexibility": 1
+      }
+    }
+  }
+}
