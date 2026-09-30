@@ -7,7 +7,7 @@ corpus and no neural network** in this Scale lineage.
 
 **[Play on the public website](https://gaeldauchy.com/pai-sho/).** This repository
 provides computation and training tools, not a second gameplay website or a
-WordPress package. The sibling `scale-pai-sho` repository documents the game.
+WordPress package. The sibling [Scale rules and engine](https://github.com/Kinkazma/scale-pai-sho) repository documents the game.
 A compatible engine copy is included here so training needs no sibling checkout.
 
 ## Requirements and setup
@@ -51,6 +51,10 @@ sequential confirmation policy. G1/G2/G3 references available at each budget for
 a fixed equally sampled pool. Selection and independent confirmation remain
 separate. Passing the mixture criterion does not prove superiority to every
 individual reference. Completed winners are not automatically installed online.
+
+To continue the closed historical lineages, including already-spent validation
+evidence and partial selection games, use the optional
+[historical continuation workflow](docs/HISTORICAL_CONTINUATION.md).
 
 ## Generations
 

@@ -1,0 +1,55 @@
+{
+  "restore": {
+    "frozenSources": 87,
+    "validationDossiers": 52,
+    "validationPairs": 1976,
+    "partialGames": 84,
+    "budgets": {
+      "8": {
+        "round": 105,
+        "seed": 30762655,
+        "nextValidationIndex": 40,
+        "activeDossier": "bd81f91cd3eb64524ec935dbc9a90ec570035d988647a4ef9bc6bbfd4f8d5b72",
+        "selectionPairs": 19548,
+        "validationPairs": 1448,
+        "partialGames": 40
+      },
+      "32": {
+        "round": 37,
+        "seed": 23962451,
+        "nextValidationIndex": 14,
+        "activeDossier": "86b24af534decf2047fd275f9e0d8e363b432cc4094b482a78483adacff48539",
+        "selectionPairs": 7128,
+        "validationPairs": 528,
+        "partialGames": 44
+      }
+    },
+    "trainingStarted": false
+  },
+  "continuation": {
+    "phase": "finished",
+    "errors": null,
+    "budgets": {
+      "8": {
+        "preserved_games": 40,
+        "new_games": 10,
+        "phase": "finished",
+        "error": null,
+        "round": 105
+      },
+      "32": {
+        "preserved_games": 44,
+        "new_games": 10,
+        "phase": "finished",
+        "error": null,
+        "round": 37
+      }
+    },
+    "seconds_authorized": 8,
+    "cooperative_overrun_seconds": 132.16718888282776,
+    "original_campaign_modified": false,
+    "strength_claim": false
+  },
+  "production_restarted": false,
+  "live_github_installation_verified": false
+}

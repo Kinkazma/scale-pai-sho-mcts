@@ -1,0 +1,10 @@
+{
+  "schema": "scale-history-assets-v1",
+  "optional": true,
+  "release_url": "https://github.com/Kinkazma/scale-pai-sho-mcts/releases/download/v0.1.0",
+  "file": "scale-history-01.tar.gz",
+  "bytes": 120605966,
+  "sha256": "03fb7edbf969670956b400c740fb998231910685ef427fd3c2ade633cd0cef05",
+  "payload_files": 36959,
+  "manifest_sha256": "0b04cc5bc3f51fe0472ddbd88a682ef05706ee2cb24a5e6fdd014aec5860a8d9"
+}
