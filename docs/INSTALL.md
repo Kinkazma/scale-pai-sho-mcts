@@ -66,3 +66,10 @@ python3 scripts/dashboard.py --port 8771
 The controller launches and observes jobs; it is not the complete old analysis
 site. An eligible training candidate is not automatically deployed to the website.
 See [completeness](COMPLETENESS.md) and [validation](LOCAL_VALIDATION.md).
+
+## Restore the final historical campaign
+
+The optional [historical continuation guide](HISTORICAL_CONTINUATION.md) restores
+the captured closed campaign into a new directory. It preserves partial games,
+parents, seeds and validation spending; it requires an explicit new duration.
+This differs from the ordinary new-campaign command above.
