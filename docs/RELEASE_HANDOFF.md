@@ -1,13 +1,15 @@
-# Publication handoff — not executed
+# Publication handoff
 
-The current instruction is to stop before creating or publishing GitHub repositories.
-Once publication is explicitly authorized, create the actual repository, push the
-reviewed branches/tags, and check the installation guide from that public clone.
-No GitHub remote is configured by the local tools. No large Release resource is
-needed for this repository: its engines, fixtures and profiles (where applicable)
-are tracked in Git.
+Publication preparation is authorized. Publish tracked code, generation branches
+and the optional `scale-history-01.tar.gz` Release resource described in
+`data/history-assets.json`. That file must retain its published SHA-256 and size.
+Set the real Release URL after creating the repository, then test the documented
+installation from the public clone. No local test proves live GitHub delivery.
 
-Publish tracked source only, not a ZIP of a working directory containing build
-caches, generated campaigns, private paths or local control logs. Read
-[COMPLETENESS.md](COMPLETENESS.md) and [INSTALL.md](INSTALL.md) for scope and commands.
-The existing website is a separate deployment and is not changed by this release.
+Engines, G1/G2/G3 profiles and final G3 confirmation records are in Git. The optional
+archive adds the closed evolutionary state; it is not required for ordinary play
+or new training. Publish neither original private Git history nor working copies,
+caches, local logs or restored experiment outputs. Website deployment is separate.
+
+See [completeness](COMPLETENESS.md), [installation](INSTALL.md) and the
+[historical workflow](HISTORICAL_CONTINUATION.md).
